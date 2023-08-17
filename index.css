@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    background-color: whitesmoke;
+    border: 1px solid;
+}
+.telephone{
+    margin-left: 50px;
+}
+.icon{
+    margin-right: 50px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    background-color: whitesmoke;
+
+    align-items: center;
+}
+.nav-name{
+    margin-left: 40px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 980px;
+    height: 100%;
+    list-style: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+.nav-bar a{
+    text-decoration: none;
+}
+.banner{
+    background-image: url(/img/banner1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.banner-one{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 150px;
+}
+.banner-name{
+    font-size: 80px;
+
+}
+.symbols{
+    margin-top: 20px;
+    opacity: 0.5;
+}
+.order-one{
+    margin-top: 20px;
+    width: 173px;
+    height: 45px;
+    background-color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+.main-box{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: end;
+    justify-content: space-between;
+    
+}
+.main h1{
+    margin-left: 40px;
+}
+.main span{
+    margin-right: 40px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.card-item{
+    width: 300px;
+    height: 392px;
+    object-fit: cover;
+}
+.card-item img{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.card-item p{
+    font-size: 25px;
+    color: blue;
+}
+.content{
+    display: grid;
+    grid-template-areas: 
+    "header section"
+    "header article" ;
+    margin-top: 200px;
+}
+.header{
+    grid-area: header;
+    background-color: red;
+    height: 800px;
+    background-image: url(/img/collection-item1.jpg);
+    background-size: cover;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+.section{
+    grid-area: section;
+    background-color: aqua;
+    background-image: url(/img/collection-item2.jpg);
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 40px;
+    border-radius: 20px;
+
+    
+}
+.article{
+    grid-area: article;
+    background-color: blue;
+    background-image: url(/img/collection-item3.jpg);
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.colection{
+    margin-top: 500px;
+    position: absolute;
+    margin-left: 150px;
+}
+.colection p{
+    opacity: 0.5;
+}
+.colection h2{
+    font-size: 70px;
+}
+.ricky{
+    width: 400px;
+    height: 50px;
+    opacity: 0.5;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    border-top: 1px solid black;
+    width: 90%;
+    color: gray;
+    margin-left: 32px;
+}
+
+.foot {
+    margin-top: 48px;
+    margin-left: 16px;
+}
+@media screen and (max-width:992px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+}
